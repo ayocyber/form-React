@@ -1,0 +1,46 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  height: 100vh;
+}
+.form-container{
+  height: 400px;
+  width: 400px;
+  border: 1px solid #dddddd;
+  margin: auto;
+  border-radius: 30px;
+  background-color: #e0dede;
+}
+.form input{
+  width: 100%;
+  max-width: 350px;
+  height: 30px;
+  margin-top: 30px;
+  text-align: left;
+  border-radius: 5px;
+  padding: 3px;
+}
+
+button{
+  margin-top: 30px;
+  max-width: 350px;
+  width: 100%;
+  cursor: pointer;
+  height: 30px;
+  background-color: rgb(12, 139, 182);
+  border-radius: 20px;
+  font-family: sans-serif;
+}
+.sucess-message{
+  width: 350px;
+  height: 30px;
+  background-color: rgb(128, 197, 24);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: auto;
+  border-radius: 3px;
+}
